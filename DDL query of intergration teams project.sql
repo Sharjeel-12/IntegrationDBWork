@@ -1,4 +1,3 @@
--- use IntegrationDB_MuhammadSharjeelFarzad
 IF OBJECT_ID(N'roles', N'U') IS NULL
 BEGIN
 create table roles(
@@ -43,6 +42,9 @@ practiceID int not null foreign key references practices(PracticeID)
 )
 end
 go
+
+If object_id(N'patients',N'U') is null
+begin
 create table patients(
 patientID int Identity(1,1) primary key,
 Title NVARCHAR(20) NULL,
@@ -53,12 +55,14 @@ Gender NVARCHAR(10) NULL,
 EmailAddress NVARCHAR(100) NULL,
 ContactNumber NVARCHAR(20) NULL
 )
+end
 go
 -- added unique index
 create unique index UX_patients_EmailAddress on patients(EmailAddress) where EmailAddress is not null 
 
 
-
+If object_id(N'providers',N'U') is null
+begin
 create table providers(
 providerID int Identity(1,1) primary key,
 FirstName NVARCHAR(50) NOT NULL,
@@ -67,20 +71,29 @@ licenseType nvarchar(30) NOT NULL,
 EmailAddress NVARCHAR(100) NULL,
 Specialization nvarchar(30) Not null
 )
+end
 go
 -- added unique index
+If object_id(N'UX_providers_EmailAddress',N'I') is null
+begin
 create unique index UX_providers_EmailAddress on providers(EmailAddress) where EmailAddress is not null 
+end
+go
 
 
+If object_id(N'resources',N'U') is null
+begin
 create table resources(
 resourceID int identity(1,1) primary key,
 resourceName nvarchar(100) not null
 )
+end
 go
 --alter table resources
 --add LocationID int foreign key references practiceLocations(LocationID);
 
-
+If object_id(N'providerSchedules',N'U') is null
+begin
 create table providerSchedules(
 ProviderScheduleID INT IDENTITY(1,1) PRIMARY KEY, -- PK
 ScheduleDate DATE NOT NULL,
@@ -92,6 +105,7 @@ ProviderID INT NOT NULL foreign key references providers(providerID),
 ResourceID INT NULL foreign key references resources(resourceID),
 LocationID INT NULL foreign key references practiceLocations(LocationID)
 )
+end
 go
 
 

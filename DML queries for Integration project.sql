@@ -12,19 +12,40 @@ select * from roles;
 end
 go
 -- sp for creating user
-create procedure AddUser @email nvarchar(100), @username nvarchar(100), @userPassword varbinary(max), @userRole nvarchar(20)
-as 
-begin
-declare @roleID int;
-set @roleID=(select roleID from roles where roleName=@userRole);
---select @roleID=roleID from roles where roleName=@userRole;
-insert into users(emailAddress, Username, userPassword, RoleID) values (@email, @username, @userPassword, @roleID );
-end
-go
+CREATE PROCEDURE AddUser 
+    @email NVARCHAR(100), 
+    @username NVARCHAR(100), 
+    @userPassword VARBINARY(MAX), 
+    @userRole NVARCHAR(20)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @roleID INT = (SELECT roleID FROM roles WHERE roleName = @userRole);
+
+    IF @roleID IS NULL
+    BEGIN
+        RAISERROR('Invalid user role specified.', 16, 1);
+        RETURN;
+    END
+
+    BEGIN TRY
+        INSERT INTO users(emailAddress, Username, userPassword, RoleID)
+        VALUES (@email, @username, @userPassword, @roleID);
+    END TRY
+    BEGIN CATCH
+        IF ERROR_NUMBER() IN (2601,2627)
+            RAISERROR('Duplicate email detected.', 16, 1);
+        ELSE
+            THROW;
+    END CATCH
+END
+GO
+
 -- sp for fetching all the users
 create procedure getAllUsers as
 begin
-select * from roles;
+select * from users;
 end
 
 
@@ -33,7 +54,7 @@ go
 create procedure getUser @email nvarchar(100)
 as 
 begin
-select 1 from users where emailAddress=@email;
+select * from users where emailAddress=@email;
 end
 go
 
@@ -91,7 +112,7 @@ end
 go
 
 -- sp for updating a practice location --fixed
-create procedure updateLocation @practiceID int, @practiceName nvarchar(100), @practiceAddress nvarchar(100),@contactEmail nvarchar(100),
+create procedure updateLocation @locationID int, @practiceID int, @practiceName nvarchar(100), @practiceAddress nvarchar(100),@contactEmail nvarchar(100),
  @POS nvarchar(10) as
 begin
 
@@ -108,7 +129,8 @@ begin tran
 --    END
 
 update practiceLocations
-set practiceAddress=@practiceAddress, contactEmail=@contactEmail, POS=@POS where practiceID=@practiceID;
+set practiceAddress=@practiceAddress, contactEmail=@contactEmail, POS=@POS, practiceID=@practiceID 
+where locationID=@locationID;
 
 if @@ROWCOUNT =0
 begin
@@ -213,7 +235,7 @@ insert into providers(FirstName, LastName, licenseType, EmailAddress, Specializa
 end try
 begin catch
 if ERROR_NUMBER() in (2601,2627)
-	RAISERROR('duplication in patient email found', 16, 1);
+	RAISERROR('duplication in provider email found', 16, 1);
 else
 	throw;
 end catch
@@ -240,7 +262,7 @@ end try
 begin catch
 if @@TRANCOUNT>0 rollback tran;
 if ERROR_NUMBER() in (2601,2627)
-	RAISERROR('duplication in patient email found', 16, 1);
+	RAISERROR('duplication in provider email found', 16, 1);
 else
 	throw;
 end catch
