@@ -1,0 +1,2 @@
+getPatientbyId
+nvarchar-->varbinary(max)
