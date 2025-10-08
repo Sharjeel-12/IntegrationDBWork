@@ -1,3 +1,5 @@
+-- original work
+
 use IntegrationDB_MuhammadSharjeelFarzad
 
 
@@ -58,7 +60,7 @@ select * from users where emailAddress=@email;
 end
 go
 
--- sp for changing password of user
+-- sp for changing password of user (not yet made)
 create procedure changePassword @email nvarchar(100), @oldPassword varbinary(max), @newPassword varbinary(max)
 as 
 begin
@@ -75,16 +77,15 @@ end
 go
 
 -- sp for CRUD of practices
-create procedure createNewPractice @name nvarchar(100), @TID nvarchar(50), @practiceAddress nvarchar(100),
-@contactEmail nvarchar(100), @POS nvarchar(10)
+drop procedure if exists createNewPractice
+go
+create procedure createNewPractice @name nvarchar(100), @TID nvarchar(50)
 as
 begin
 
 begin try
 begin tran;
 insert into practices(practiceName,taxID) values (@name,@TID);
-Declare @practiceID int = SCOPE_IDENTITY();
-insert into practiceLocations(practiceAddress,contactEmail, POS, practiceID) values (@practiceAddress,@contactEmail,@POS,@practiceID);
 commit tran;
 end try
 
@@ -95,6 +96,19 @@ throw;
 end catch
 end
 go
+-- selecting a practice only, not location
+create procedure getPracticeById @practiceID int as 
+begin
+select * from practices where PracticeID=@practiceID;
+end
+go
+-- deleting a practice not location
+create procedure deletePracticeById @practiceID int as 
+begin
+delete from practices where PracticeID=@practiceID;
+end
+go
+
  -- sp for getting all the practices
  create procedure getAllPractices as
  begin
@@ -102,8 +116,17 @@ go
  practiceLocations as pl left join  practices as pr on pr.practiceID=pl.PracticeID; 
  end
  go
+
+  -- sp for getting  practice location by id
+ create procedure getPracticeLocation @LocationID int as
+ begin
+ select * from (select pl.practiceID, pl.LocationID as LocationID, pl.practiceAddress, pl.contactEmail, pl.POS, pr.practiceName, pr.TaxID from 
+ practiceLocations as pl left join  practices as pr on pr.practiceID=pl.PracticeID) as result where result.LocationID=@LocationID; 
+ end
+ go
 -- sp for adding new location for an exisiting practice
-create procedure addNewLocation @practiceID int, @practiceName nvarchar(100), @practiceAddress nvarchar(100),@contactEmail nvarchar(100),
+
+create procedure addNewLocation @practiceID int, @practiceAddress nvarchar(100),@contactEmail nvarchar(100),
  @POS nvarchar(10) as
 begin
 --Declare @practiceID int = (select practiceID from practices where practiceName=@practiceName);
@@ -112,7 +135,9 @@ end
 go
 
 -- sp for updating a practice location --fixed
-create procedure updateLocation @locationID int, @practiceID int, @practiceName nvarchar(100), @practiceAddress nvarchar(100),@contactEmail nvarchar(100),
+drop procedure if exists updateLocation
+go
+create procedure updateLocation @locationID int, @practiceID int, @practiceAddress nvarchar(100),@contactEmail nvarchar(100),
  @POS nvarchar(10) as
 begin
 
@@ -225,6 +250,12 @@ select * from patients;
 end
 go
 
+-- getting a patient by ID 
+create procedure getPatientById @patientId int as 
+begin
+select * from patients where patientID=@patientId;
+end
+go
 -- sps for crud operations on provider
 create procedure addProvider @FirstName NVARCHAR(50), @LastName NVARCHAR(50), @licenseType nvarchar(30), 
 @EmailAddress NVARCHAR(100), @Specialization nvarchar(30) as 
@@ -278,6 +309,13 @@ go
 create procedure getAllProviders as 
 begin
 select * from providers;
+end
+go
+
+-- fetching provider by Id: -
+create procedure getProviderById @providerId int as 
+begin
+select * from providers where providerID=@providerId;
 end
 go
 
@@ -489,7 +527,7 @@ left join practices as prac on prac.PracticeID=pl.practiceID;
 
 
 end
-
+go
 
 
 

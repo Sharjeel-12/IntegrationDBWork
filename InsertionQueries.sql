@@ -1,3 +1,4 @@
+use IntegrationDB_MuhammadSharjeelFarzad
 
 INSERT INTO practices (practiceName, taxID)
 VALUES
@@ -139,7 +140,7 @@ VALUES
 
 
 
-exec getAllPa
+exec getAllPatients
 go
 
 -- a view is called a virtual table in sql. it does not store the table data

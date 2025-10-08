@@ -1,3 +1,5 @@
+-- original work
+
 IF OBJECT_ID(N'roles', N'U') IS NULL
 BEGIN
 create table roles(
@@ -136,3 +138,10 @@ go
 --) b on a.scheduleID=b.scheduleID) as ans_2 on ans_1.scheduleID=ans_2.scheduleID
 
 
+use IntegrationDB_MuhammadSharjeelFarzad
+
+
+select * from users
+
+exec getAllPractices
+select * from practices where PracticeID=1;

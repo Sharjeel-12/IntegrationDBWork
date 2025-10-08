@@ -1,0 +1,7 @@
+C:\Users\sharjeel.farzad\source\repos\APIProject\APIProject\obj\Debug\net7.0\APIProject.csproj.AssemblyReference.cache
+C:\Users\sharjeel.farzad\source\repos\APIProject\APIProject\obj\Debug\net7.0\APIProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sharjeel.farzad\source\repos\APIProject\APIProject\obj\Debug\net7.0\APIProject.AssemblyInfoInputs.cache
+C:\Users\sharjeel.farzad\source\repos\APIProject\APIProject\obj\Debug\net7.0\APIProject.AssemblyInfo.cs
+C:\Users\sharjeel.farzad\source\repos\APIProject\APIProject\obj\Debug\net7.0\APIProject.csproj.CoreCompileInputs.cache
+C:\Users\sharjeel.farzad\source\repos\APIProject\APIProject\obj\Debug\net7.0\APIProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sharjeel.farzad\source\repos\APIProject\APIProject\obj\Debug\net7.0\APIProject.MvcApplicationPartsAssemblyInfo.cache
