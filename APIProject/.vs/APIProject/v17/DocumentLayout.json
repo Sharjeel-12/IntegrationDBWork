@@ -1,0 +1,824 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\controllers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\controllers\\resourcescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\resourcescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\controllers\\practicelocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\practicelocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\controllers\\practicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\controllers\\practicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\repositories\\schedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\repositories\\schedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\repositories\\practicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\repositories\\practicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\interfaces\\ischedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\interfaces\\ischedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\interfaces\\iproviderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\interfaces\\iproviderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\interfaces\\ipracticelocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\interfaces\\ipracticelocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\models\\providerschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\models\\providerschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\dtos\\patientdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\dtos\\patientdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\apiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\apiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\repositories\\practicelocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\repositories\\practicelocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\dtos\\resourcedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\dtos\\resourcedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\dtos\\providerscheduledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\dtos\\providerscheduledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\dtos\\practicedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\dtos\\practicedtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\interfaces\\ipracticerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\interfaces\\ipracticerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\interfaces\\iresourcesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\interfaces\\iresourcesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\interfaces\\ipracticeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\interfaces\\ipracticeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\interfaces\\iresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\interfaces\\iresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\interfaces\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\interfaces\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\interfaces\\ipracticelocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\interfaces\\ipracticelocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\interfaces\\iproviderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\interfaces\\iproviderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\models\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\models\\practice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\models\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\models\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\resourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\resourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\providerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\providerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\practiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\practiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\services\\practicelocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\services\\practicelocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\repositories\\providerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\repositories\\providerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\data\\repositories\\resourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\data\\repositories\\resourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|f:\\integration teams work\\version_2\\integrationdbwork\\apiproject\\apiproject\\dtos\\providerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CCE604F-D16A-48D2-9B9D-4758BE6B3A7E}|APIProject\\APIProject.csproj|solutionrelative:apiproject\\dtos\\providerdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Program.cs",
+              "RelativeDocumentMoniker": "APIProject\\Program.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Program.cs",
+              "RelativeToolTip": "APIProject\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwDEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PracticeController.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\PracticeController.cs",
+              "RelativeDocumentMoniker": "APIProject\\Controllers\\PracticeController.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\PracticeController.cs",
+              "RelativeToolTip": "APIProject\\Controllers\\PracticeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "APIProject\\Controllers\\PatientController.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "APIProject\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "APIProject\\Models\\User.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\User.cs",
+              "RelativeToolTip": "APIProject\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PracticeLocationController.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\PracticeLocationController.cs",
+              "RelativeDocumentMoniker": "APIProject\\Controllers\\PracticeLocationController.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\PracticeLocationController.cs",
+              "RelativeToolTip": "APIProject\\Controllers\\PracticeLocationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProviderController.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\ProviderController.cs",
+              "RelativeDocumentMoniker": "APIProject\\Controllers\\ProviderController.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\ProviderController.cs",
+              "RelativeToolTip": "APIProject\\Controllers\\ProviderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResourcesController.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\ResourcesController.cs",
+              "RelativeDocumentMoniker": "APIProject\\Controllers\\ResourcesController.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\ResourcesController.cs",
+              "RelativeToolTip": "APIProject\\Controllers\\ResourcesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "APIProject\\Controllers\\ScheduleController.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "APIProject\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAASwEoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:05:22.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APIProject\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APIProject\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T19:20:00.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScheduleRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\ScheduleRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Repositories\\ScheduleRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\ScheduleRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Repositories\\ScheduleRepository.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PracticeRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\PracticeRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Repositories\\PracticeRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\PracticeRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Repositories\\PracticeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Repositories\\PatientRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\PatientRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Repositories\\PatientRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IScheduleRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IScheduleRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Interfaces\\IScheduleRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IScheduleRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Interfaces\\IScheduleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProviderRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IProviderRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Interfaces\\IProviderRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IProviderRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Interfaces\\IProviderRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPracticeLocationRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IPracticeLocationRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Interfaces\\IPracticeLocationRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IPracticeLocationRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Interfaces\\IPracticeLocationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDtos.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\UserDtos.cs",
+              "RelativeDocumentMoniker": "APIProject\\Dtos\\UserDtos.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\UserDtos.cs",
+              "RelativeToolTip": "APIProject\\Dtos\\UserDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\UserService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\UserService.cs",
+              "RelativeToolTip": "APIProject\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:59:50.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Interfaces\\IPatientRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IPatientRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Interfaces\\IPatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\appsettings.json",
+              "RelativeDocumentMoniker": "APIProject\\appsettings.json",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\appsettings.json",
+              "RelativeToolTip": "APIProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-08T16:22:37.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "APIProject\\Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:58:40.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProviderSchedule.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\ProviderSchedule.cs",
+              "RelativeDocumentMoniker": "APIProject\\Models\\ProviderSchedule.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\ProviderSchedule.cs",
+              "RelativeToolTip": "APIProject\\Models\\ProviderSchedule.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\Interfaces\\IPatientService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "APIProject\\Services\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PatientDtos.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\PatientDtos.cs",
+              "RelativeDocumentMoniker": "APIProject\\Dtos\\PatientDtos.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\PatientDtos.cs",
+              "RelativeToolTip": "APIProject\\Dtos\\PatientDtos.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "APIProject.csproj",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\APIProject.csproj",
+              "RelativeDocumentMoniker": "APIProject\\APIProject.csproj",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\APIProject.csproj",
+              "RelativeToolTip": "APIProject\\APIProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-08T16:22:37.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PracticeLocationRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\PracticeLocationRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Repositories\\PracticeLocationRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\PracticeLocationRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Repositories\\PracticeLocationRepository.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswHEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\PatientService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\PatientService.cs",
+              "RelativeToolTip": "APIProject\\Services\\PatientService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwA4AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ResourceDtos.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\ResourceDtos.cs",
+              "RelativeDocumentMoniker": "APIProject\\Dtos\\ResourceDtos.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\ResourceDtos.cs",
+              "RelativeToolTip": "APIProject\\Dtos\\ResourceDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProviderScheduleDtos.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\ProviderScheduleDtos.cs",
+              "RelativeDocumentMoniker": "APIProject\\Dtos\\ProviderScheduleDtos.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\ProviderScheduleDtos.cs",
+              "RelativeToolTip": "APIProject\\Dtos\\ProviderScheduleDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PracticeDtos.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\PracticeDtos.cs",
+              "RelativeDocumentMoniker": "APIProject\\Dtos\\PracticeDtos.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\PracticeDtos.cs",
+              "RelativeToolTip": "APIProject\\Dtos\\PracticeDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPracticeRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IPracticeRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Interfaces\\IPracticeRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IPracticeRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Interfaces\\IPracticeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ScheduleService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\ScheduleService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\ScheduleService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\ScheduleService.cs",
+              "RelativeToolTip": "APIProject\\Services\\ScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IPracticeService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IPracticeService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\Interfaces\\IPracticeService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IPracticeService.cs",
+              "RelativeToolTip": "APIProject\\Services\\Interfaces\\IPracticeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IResourcesService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IResourcesService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\Interfaces\\IResourcesService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IResourcesService.cs",
+              "RelativeToolTip": "APIProject\\Services\\Interfaces\\IResourcesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IResourceRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IResourceRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Interfaces\\IResourceRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Interfaces\\IResourceRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Interfaces\\IResourceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IScheduleService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IScheduleService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\Interfaces\\IScheduleService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IScheduleService.cs",
+              "RelativeToolTip": "APIProject\\Services\\Interfaces\\IScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IPracticeLocationService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IPracticeLocationService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\Interfaces\\IPracticeLocationService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IPracticeLocationService.cs",
+              "RelativeToolTip": "APIProject\\Services\\Interfaces\\IPracticeLocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IProviderService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IProviderService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\Interfaces\\IProviderService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\Interfaces\\IProviderService.cs",
+              "RelativeToolTip": "APIProject\\Services\\Interfaces\\IProviderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Provider.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\Provider.cs",
+              "RelativeDocumentMoniker": "APIProject\\Models\\Provider.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\Provider.cs",
+              "RelativeToolTip": "APIProject\\Models\\Provider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "APIProject\\Models\\Patient.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\Patient.cs",
+              "RelativeToolTip": "APIProject\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ResourceService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\ResourceService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\ResourceService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\ResourceService.cs",
+              "RelativeToolTip": "APIProject\\Services\\ResourceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Practice.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\Practice.cs",
+              "RelativeDocumentMoniker": "APIProject\\Models\\Practice.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\Practice.cs",
+              "RelativeToolTip": "APIProject\\Models\\Practice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProviderService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\ProviderService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\ProviderService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\ProviderService.cs",
+              "RelativeToolTip": "APIProject\\Services\\ProviderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PracticeService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\PracticeService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\PracticeService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\PracticeService.cs",
+              "RelativeToolTip": "APIProject\\Services\\PracticeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PracticeLocationService.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\PracticeLocationService.cs",
+              "RelativeDocumentMoniker": "APIProject\\Services\\PracticeLocationService.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Services\\PracticeLocationService.cs",
+              "RelativeToolTip": "APIProject\\Services\\PracticeLocationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProviderRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\ProviderRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Repositories\\ProviderRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\ProviderRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Repositories\\ProviderRepository.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAuwHEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ResourceRepository.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\ResourceRepository.cs",
+              "RelativeDocumentMoniker": "APIProject\\Data\\Repositories\\ResourceRepository.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Data\\Repositories\\ResourceRepository.cs",
+              "RelativeToolTip": "APIProject\\Data\\Repositories\\ResourceRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ProviderDtos.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\ProviderDtos.cs",
+              "RelativeDocumentMoniker": "APIProject\\Dtos\\ProviderDtos.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Dtos\\ProviderDtos.cs",
+              "RelativeToolTip": "APIProject\\Dtos\\ProviderDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\Resource.cs",
+              "RelativeDocumentMoniker": "APIProject\\Models\\Resource.cs",
+              "ToolTip": "F:\\Integration Teams Work\\version_2\\IntegrationDBWork\\APIProject\\APIProject\\Models\\Resource.cs",
+              "RelativeToolTip": "APIProject\\Models\\Resource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T16:22:37.643Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

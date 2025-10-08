@@ -1,8 +1,8 @@
--- original work
+-- original work 2
 
 use IntegrationDB_MuhammadSharjeelFarzad
 
-
+select * from roles
 insert into roles(roleName) values
 ('Admin'),('Provider'),('Receptionist');
 go
@@ -14,10 +14,12 @@ select * from roles;
 end
 go
 -- sp for creating user
+drop procedure AddUser
+go
 CREATE PROCEDURE AddUser 
     @email NVARCHAR(100), 
     @username NVARCHAR(100), 
-    @userPassword VARBINARY(MAX), 
+    @userPassword nvarchar(200), 
     @userRole NVARCHAR(20)
 AS
 BEGIN
@@ -77,7 +79,7 @@ end
 go
 
 -- sp for CRUD of practices
-drop procedure if exists createNewPractice
+drop procedure createNewPractice
 go
 create procedure createNewPractice @name nvarchar(100), @TID nvarchar(50)
 as
@@ -125,7 +127,6 @@ go
  end
  go
 -- sp for adding new location for an exisiting practice
-
 create procedure addNewLocation @practiceID int, @practiceAddress nvarchar(100),@contactEmail nvarchar(100),
  @POS nvarchar(10) as
 begin
@@ -135,7 +136,7 @@ end
 go
 
 -- sp for updating a practice location --fixed
-drop procedure if exists updateLocation
+drop procedure updateLocation
 go
 create procedure updateLocation @locationID int, @practiceID int, @practiceAddress nvarchar(100),@contactEmail nvarchar(100),
  @POS nvarchar(10) as
@@ -536,4 +537,4 @@ go
 
 
 
-
+select * from patients

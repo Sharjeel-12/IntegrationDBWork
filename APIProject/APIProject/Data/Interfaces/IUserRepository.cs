@@ -5,12 +5,12 @@ namespace APIProject.Data.Interfaces
 {
     public interface IUserRepository
     {
-        Task<List<User>> GetAllUsersAsync();
-        Task<User> GetUserAsync(int UserId);
-        Task<User> GetUserByEmailAsync(string Email);
+        Task<List<UserModel>> GetAllUsersAsync();
+        //Task<User> GetUserAsync(int UserId);
+        Task<UserModel> GetUserByEmailAsync(string Email);
         Task AddUserAsync(CreateUserDto userDto);
-        Task UpdateUserAsync(UpdateUserDto userDto);
-        Task DeleteUserAsync(int UserId);
+        //Task UpdateUserAsync(UpdateUserDto userDto);
+        //Task DeleteUserAsync(int UserId);
     }
 
 

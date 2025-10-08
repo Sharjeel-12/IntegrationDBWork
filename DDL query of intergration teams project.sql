@@ -1,5 +1,5 @@
--- original work
-
+-- original work 2
+use IntegrationDB_MuhammadSharjeelFarzad
 IF OBJECT_ID(N'roles', N'U') IS NULL
 BEGIN
 create table roles(
@@ -16,11 +16,13 @@ create table users(
 UserID int identity(1,1) primary key,
 emailAddress nvarchar(100) unique not null,
 Username nvarchar(100) not null,
-userPassword varbinary(max) not null,
+userPassword nvarchar(200) not null,
 RoleID int not null foreign key references roles(roleID)
 )
 END
 go
+
+drop table users
 
 
 IF OBJECT_ID(N'practices', N'U') IS NULL

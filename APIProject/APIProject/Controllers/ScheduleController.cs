@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using APIProject.Models;
 using APIProject.Dtos;
-using APIProject.Services.Interfaces; 
+using APIProject.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace APIProject.Controllers
 {
+    [Authorize(Roles ="1")]
     [Route("api/[controller]")]
     [ApiController]
     public class ScheduleController : ControllerBase

@@ -1,10 +1,12 @@
 ﻿using APIProject.Dtos;
 using APIProject.Models;
 using APIProject.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIProject.Controllers
 {
+    [Authorize(Roles ="1")]
     [Route("api/[controller]")]
     [ApiController]
     public class ProviderController : ControllerBase
